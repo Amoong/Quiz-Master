@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: What is the correct syntax for creating a new integer variable with an
     inital value of 12?
+  answers:
+  - int num = 12;
+  - int num = "12";
+  - int num = 12;
+  - int num = "12"
+  correctAnswerIndex: 0

@@ -967,8 +967,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc68f6f0754013f419dc033ff1545ab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToCompleteQuestion: 30
-  timeToShowCorrectAnswer: 10
+  timeToCompleteQuestion: 5
+  timeToShowCorrectAnswer: 2
   loadNextQuestion: 0
   isAnsweringQuestion: 0
   fillFraction: 0
@@ -1190,7 +1190,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 1014418067}
-  question: {fileID: 11400000, guid: 5f6c0be68bd42c5488508ffec7dd653a, type: 2}
+  questions:
+  - {fileID: 11400000, guid: 5f6c0be68bd42c5488508ffec7dd653a, type: 2}
+  - {fileID: 11400000, guid: 35901ed39609d42499d0569f7debaf86, type: 2}
+  - {fileID: 11400000, guid: 7877f73dfa29ed7478098846f94cabf9, type: 2}
+  - {fileID: 11400000, guid: 670ac9e4c7792784db190de080043d63, type: 2}
+  - {fileID: 11400000, guid: c7358f025f4dc374a9ceeea017eb1730, type: 2}
   answerButtons:
   - {fileID: 1453070897}
   - {fileID: 2071079555}
